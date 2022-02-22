@@ -46,7 +46,7 @@ makeExcel <- function(tables,titles,subtitles,tabnames,tablenames,filename) {
                              headerStyle = headerStyle,
                              withFilter = FALSE,
                              bandedRows = FALSE,
-                             tableName = names(tables[i]))
+                             tableName = tablenames[[i]])
 
     openxlsx::setColWidths(wb,
                            sheet = tabnames[[i]],
