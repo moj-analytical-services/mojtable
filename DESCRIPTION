@@ -1,0 +1,14 @@
+Package: mojtable
+Title: Make statistical outputs accessible
+Version: 0.0.1
+Author: philip.hall@justice.gov.uk
+Maintainer: Phil Hall <philip.hall@justice.gov.uk>
+Description: Functions for creating accessible statistical outputs
+License: OGL
+Encoding: UTF-8
+LazyData: true
+Imports:
+        data.table,
+        openxlsx
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
